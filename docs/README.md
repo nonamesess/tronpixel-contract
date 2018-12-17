@@ -41,6 +41,7 @@ uint public finalPotAmount;
 
 // name: buyPixelsFristTime
 // invoke when the user buy pixels for the very first time
+
 | params   | type   | size | tip                        |
 | ------ | ------ | ---- | ---------------------------- |
 | pixelsToBuy | uint32 | --   | pixels' coordinate to buy |
@@ -51,6 +52,7 @@ function buyPixelsFristTime(uint32[] pixelsToBuy, address referrer) payable retu
 
 // name: buyPixels
 // invoke when the user buy pixels
+
 | params   | type   | size | tip                         |
 | ------ | ------ | ---- | ---------------------------- |
 | pixelsToBuy | uint32 | --   | pixels' coordinate to buy |
